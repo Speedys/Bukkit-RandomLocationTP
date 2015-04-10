@@ -1,0 +1,12 @@
+name: RandomLocationTP
+version: 1
+main: me.Speedyspro.RandomLocation.Main
+permissions:
+    randomlocation.*:
+     children:
+       randomlocation.create: true
+       randomlocation.use: true
+    randomlocation.create:
+     default: false
+    randomlocation.use:
+     default: false
